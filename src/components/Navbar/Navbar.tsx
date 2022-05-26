@@ -1,3 +1,12 @@
-export const Navbar = (): JSX.Element => {
-    return <div>I'm a navbar</div>
+export const Footer = (): JSX.Element => {
+    return <div>Reseaux sociaux</div>
+}
+
+type JeanJarrNavBarProps = {
+    name: string,
+}
+export const JeanJarrNavBar = ({name}:JeanJarrNavBarProps): JSX.Element => {
+    return (
+        <div>Welcome to the Zeylda website dear {name} !</div>
+    )
 }
